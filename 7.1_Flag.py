@@ -12,7 +12,7 @@ The record is 16! You will have to use some loops to achieve this.
 import arcade
 import math
 
-SH = 520
+SH = 390
 SW = SH * 1.9
 arcade.open_window(int(SW), SH, "Flag")
 arcade.set_background_color(arcade.color.WHITE)
@@ -69,3 +69,10 @@ for i in range(50):
 
 arcade.finish_render()
 arcade.run()
+
+
+
+
+
+
+
