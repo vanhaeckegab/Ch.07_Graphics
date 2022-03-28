@@ -27,6 +27,7 @@ arcade.start_render()
 arcade.draw_circle_filled(250, 250, 150, arcade.color.BLACK)
 arcade.draw_lrtb_rectangle_filled(0, SW, 162.5, 0, arcade.color.WHITE)
 
+
 def drawstar(sx, sy, r):
     arcade.draw_polygon_filled([[4 * math.cos(math.radians(54+r)) + sx, 4 * math.sin(math.radians(54+r)) + sy],
                             [12 * math.cos(math.radians(90+r)) + sx, 12 * math.sin(math.radians(90+r)) + sy],
@@ -39,6 +40,7 @@ def drawstar(sx, sy, r):
                             [4 * math.cos(math.radians(342+r)) + sx, 4 * math.sin(math.radians(342+r)) + sy],
                             [12 * math.cos(math.radians(18+r)) + sx, 12 * math.sin(math.radians(18+r)) + sy]
                             ], arcade.color.BLACK)
+
 
 for i in range(22):
     drawstar(250 + 175 * math.cos(math.radians(-28.125 + 11.25 * i)),
